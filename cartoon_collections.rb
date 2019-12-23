@@ -27,6 +27,11 @@
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.each do |snack|
+    text = "Current number is: #{n}"
+    puts text
+  end
+
+  snacks.each do |snack|
     if(cheese_types.include?(snack))
       snack
     end
