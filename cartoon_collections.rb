@@ -36,4 +36,4 @@ def find_the_cheese(ingredients)
 end
 
 snacks = ["crackers", "gouda", "thyme"]
-find_the_cheese(snacks)
+puts find_the_cheese(snacks)
