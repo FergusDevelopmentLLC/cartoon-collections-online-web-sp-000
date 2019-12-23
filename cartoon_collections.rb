@@ -31,15 +31,15 @@ def find_the_cheese(snacks)
     #puts text
   end
 
-  snacks.each do |snack|
-    if(cheese_types.include?(snack))
-      snack
-    end
-
-    # else
-    #   #nil
-    # end
-  end
+  # snacks.each do |snack|
+  #   if(cheese_types.include?(snack))
+  #     snack
+  #   end
+  #
+  #   # else
+  #   #   #nil
+  #   # end
+  # end
 end
 
 snacks = ["crackers", "gouda", "thyme"]
