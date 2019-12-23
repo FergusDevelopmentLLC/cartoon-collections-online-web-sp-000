@@ -23,8 +23,11 @@ def long_planeteer_calls(calls)
   returnVal
 end
 
-short_words = ["puff", "go", "two"]
-puts long_planeteer_calls(short_words)
+#short_words = ["puff", "go", "two"]
+#puts long_planeteer_calls(short_words)
+
+assorted_words = ["two", "go", "industrious", "bop"]
+long_planeteer_calls(assorted_words)
 
 
 def find_the_cheese# code an argument here
