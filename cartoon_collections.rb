@@ -11,7 +11,7 @@ def summon_captain_planet(calls)
   end
 end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-summon_captain_planet(planeteer_calls)
+puts summon_captain_planet(planeteer_calls).inspect
 
 def long_planeteer_calls# code an argument here
   # Your code here
