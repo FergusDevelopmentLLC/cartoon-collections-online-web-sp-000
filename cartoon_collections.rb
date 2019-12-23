@@ -31,9 +31,9 @@ def find_the_cheese(snacks)
       snack
     end
 
-    else
-      #nil
-    end
+    # else
+    #   #nil
+    # end
   end
 end
 
