@@ -24,9 +24,9 @@ end
 #puts long_planeteer_calls(assorted_words)
 
 
-def find_the_cheese(ingredients)
+def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.each do |item|
+  snacks.each do |item|
     if(cheese_types.include?(item))
       #item
     else
