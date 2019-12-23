@@ -25,8 +25,14 @@ end
 
 
 def find_the_cheese(ingredients)
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  ingredients.each do |item|
+    if(cheese_types.include?(item))
+      item
+    else
+      nil
+    end
+  end
 end
 
 snacks = ["crackers", "gouda", "thyme"]
