@@ -14,13 +14,7 @@ end
 #puts summon_captain_planet(planeteer_calls).inspect
 
 def long_planeteer_calls(calls)
-  returnVal = false
-  calls.each { |call|
-    if call.length > 4
-      returnVal = true
-    end
-  }
-  returnVal
+  return calls.any? { |call| call.length > 4 }
 end
 
 #short_words = ["puff", "go", "two"]
