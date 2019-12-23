@@ -17,14 +17,17 @@ def long_planeteer_calls(calls)
   return calls.any? { |call| call.length > 4 }
 end
 
-short_words = ["puff", "go", "two"]
-puts long_planeteer_calls(short_words)
+# short_words = ["puff", "go", "two"]
+# puts long_planeteer_calls(short_words)
 
 #assorted_words = ["two", "go", "industrious", "bop"]
 #puts long_planeteer_calls(assorted_words)
 
 
-def find_the_cheese# code an argument here
+def find_the_cheese(ingredients)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+snacks = ["crackers", "gouda", "thyme"]
+find_the_cheese(snacks)
